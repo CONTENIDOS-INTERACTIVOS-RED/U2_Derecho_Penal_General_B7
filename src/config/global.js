@@ -1,7 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '2',
+    tituloUnidad:
+      'Interpretación de la ley penal. Normas rectoras. Teoría general del delito.',
   },
   menuPrincipal: {
     menu: [
@@ -15,70 +16,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Interpretación y aplicación de la ley penal',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'La teoría del delito y su estructura',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Función de la pena y medidas de seguridad',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +71,92 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Casanueva Sainz, I. (2013). Derecho Penal. Parte general: materiales didácticos: (3 ed.). Publicaciones de la Universidad de Deusto. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/34064 ',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Sandoval Fernández, J. (2013). Responsabilidad penal y detención preventiva: el proceso penal en Colombia. Ley 906/2004: ( ed.). Universidad del Norte. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/69911',
+    },
+    {
+      referencia:
+        'Zambrano Pasquel, A. (2014). Estudio introductorio al Código Integral Penal. Tomo I: Parte general: ( ed.). Corporación de Estudios y Publicaciones. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/115014 ',
+    },
+    {
+      referencia:
+        'Beccaria, C. (2009). De los delitos y de las penas: (ed.). FCE - Fondo de Cultura Económica. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/71904?page=198  ',
+    },
+    {
+      referencia:
+        'Cruz Márquez, B. (2008). La medida de internamiento y sus alternativas en el derecho penal juvenil: ( ed.). Dykinson. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/34181 ',
+    },
+    {
+      referencia:
+        'Gaviria Trespalacios, Jaime. (2005). LA INIMPUTABILIDAD: CONCEPTO Y ALCANCE EN EL CÓDIGO PENAL COLOMBIANO. Revista Colombiana de Psiquiatría, 34 (Supl. 1), 26-48. Recuperado el 24 de marzo de 2025 de ',
+      link:
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0034-74502005000500005&lng=en&tlng=es.  ',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Antijuridicidad',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'elemento del delito que indica que la conducta típica contradice el orden jurídico y no está justificada legalmente. ',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Autor mediato',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'persona que comete un delito utilizando a otro como instrumento, generalmente aprovechando su inimputabilidad o coacción.',
+    },
+    {
+      termino: 'Bien jurídico',
+      significado:
+        'valor o interés protegido por el Derecho Penal, como la vida, la libertad, la integridad o el patrimonio.',
+    },
+    {
+      termino: 'Causal de justificación',
+      significado:
+        'circunstancia que excluye la antijuridicidad de una conducta, como la legítima defensa o el estado de necesidad. ',
+    },
+    {
+      termino: 'Culpabilidad',
+      significado:
+        'juicio de reproche sobre el autor de un delito, basado en su imputabilidad, conocimiento y posibilidad de actuar conforme a la ley.',
+    },
+    {
+      termino: 'Dolo',
+      significado:
+        'conducta en la que el autor conoce y quiere realizar el hecho típico penal.',
+    },
+    {
+      termino: 'Preterintencional',
+      significado:
+        'cuando el resultado delictivo es más grave que el querido inicialmente por el autor.',
+    },
+    {
+      termino: 'Error de prohibición',
+      significado:
+        'desconocimiento de la ilicitud de la conducta por parte del autor; puede excluir la culpabilidad si es invencible.',
+    },
+    {
+      termino: 'Imputabilidad',
+      significado:
+        'capacidad del sujeto para comprender la ilicitud del acto y actuar conforme a esa comprensión.',
+    },
+    {
+      termino: 'Inimputabilidad',
+      significado:
+        'condición de quien no puede ser penalmente responsable por no comprender la ilicitud del acto o no actuar libremente.',
+    },
+    {
+      termino: 'Medidas de seguridad',
+      significado:
+        'sanciones no retributivas aplicadas a personas inimputables que representan peligro para sí o para terceros.',
     },
   ],
 }
